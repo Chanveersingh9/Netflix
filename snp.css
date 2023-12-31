@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('netflixpic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+}
+.button-group {
+    display: grid;
+    justify-content: end;
+   }
+ 
+    
+
+.nav {
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.main {
+    padding: 20px;
+    color: white;
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    margin: 50px;
+    width: 100%;
+}
+.button-container {
+    
+     text-align: right; 
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    width: 30%; 
+    
+}
+.button-container button {
+    
+     margin-left: 10px;
+    font-size: 20px;
+    padding: 8px;
+    width: 30%; 
+    
+    
+}
+
+
+input[type="text"], input[type="password"] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+button:hover {
+    opacity: 1.5;
+}
+ 
